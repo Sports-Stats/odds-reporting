@@ -1,0 +1,5 @@
+venv
+.authorized-config.json
+*.egg-info
+.vscode
+__pycache__

@@ -1,0 +1,23 @@
+{
+  "apis": {
+    "LiveScore": {
+      "api_key": "!API_KEY!",
+      "host_header": "livescore6.p.rapidapi.com",
+      "routes": {
+        "leagues": {
+          "get_tables": "/leagues/v2/get-table",
+          "list": "/leagues/v2/list"
+        },
+        "matches": {
+          "list_by_date": "/matches/v2/list-by-date",
+          "list_by_league": "/matches/v2/list-by-league"
+        }
+      },
+      "url": "https://livescore6.p.rapidapi.com"
+    },
+    "OddsApi": {
+      "api_key": "!API_KEY!",
+      "url": "https://api.the-odds-api.com/v4"
+    }
+  }
+}
